@@ -7,13 +7,13 @@ public class CollectiblesPickUp : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        Debug.Log("IN Collition");
-        if (collision.gameObject.name == "Player")
+        
+        if (collision.gameObject.name == "Player") //Seeing if player has collided
         {
+            Debug.Log("Collected a Collectible");
+            Destroy(this.gameObject);                   //Removing collectible if collided
 
-            Destroy(this.gameObject);
-
-            GameManager.Instance.addScore(1);
+            GameManager.Instance.addScore(1);       // adding 1 to score , acctually subtracting one 
         }
     }
 }
