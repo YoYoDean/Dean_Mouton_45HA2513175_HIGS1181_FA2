@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Collectible
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Collectible
+  - Obsticle
+  - 
+  - 
+  - Player
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: New Layer 1
+    uniqueID: 3332542971
+    locked: 0
+  - name: Ground
+    uniqueID: 3314196939
+    locked: 0
+  - name: New Layer 3
+    uniqueID: 1280227139
+    locked: 0
+  - name: New Layer 4
+    uniqueID: 2165687385
+    locked: 0
+  - name: New Layer 5
+    uniqueID: 1872198275
+    locked: 0
+  - name: New Layer 6
+    uniqueID: 3588811891
+    locked: 0
+  - name: New Layer 7
+    uniqueID: 1819517847
+    locked: 0
+  - name: obsticle
+    uniqueID: 3397135469
+    locked: 0
+  - name: Collectible
+    uniqueID: 584252517
+    locked: 0
+  - name: PLayer
+    uniqueID: 2316548481
+    locked: 0
+  m_RenderingLayers:
+  - Default
